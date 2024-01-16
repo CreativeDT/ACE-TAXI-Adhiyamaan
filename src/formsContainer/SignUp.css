@@ -1,0 +1,45 @@
+div.inputs {
+  display: flex;
+  flex-direction: column;
+  /* align-items:flex-end; */
+  /* justify-content:center; */
+  width: auto;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.signup {
+  color: rgb(83, 139, 250);
+  display: flex;
+  font-weight: 900;
+  font-size: larger;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.fullname {
+  display: flex;
+  flex-direction: row;
+  /* width: px;
+    height:30px;
+    padding: 25px; */
+}
+
+button {
+  width: 250px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  height: 35px;
+  width: 250px;
+  border-radius: 20px;
+  background-color: rgb(83, 139, 250);
+  color: white;
+  font-size: medium;
+  font-weight:lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

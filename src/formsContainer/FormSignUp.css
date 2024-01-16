@@ -1,0 +1,133 @@
+/* body {
+  overflow: hidden;
+} */
+.full-forms {
+  display: flex;
+  flex-direction: row;
+  font-family: sans-serif;
+}
+.formContainer-right {
+  height: 70%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+}
+.formContainer-left {
+  height: 100vh;
+  width: 50%;
+  object-fit: cover;
+}
+img {
+  width: 100%;
+  height: fit-content;
+}
+.f-name {
+  width: 100%;
+  padding-right: 10px;
+}
+.l-name {
+  width: 100%;
+}
+.fullname {
+  display: flex;
+  justify-content: space-between;
+}
+.signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0c7cf4;
+  font-family: sans-serif;
+  font-size: 125%;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+
+form {
+  border-radius: 10px;
+  box-shadow: 0 0 5px 0 hsl(0, 0%, 74%);
+  padding: 5px 40px;
+}
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+.form-inputs {
+  margin-bottom: 15px;
+}
+.form-lable {
+  font-weight: bold;
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+.btn {
+  background-color: #0c7cf4;
+  color: whitesmoke;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  width: 100%;
+  height: 50px;
+  border-radius: 50px;
+  vertical-align: middle;
+  border: none;
+  margin-top: 20px;
+  box-shadow: 0 0 5px 0 hsl(0, 0%, 74%);
+  cursor: pointer;
+}
+.checkbox {
+  text-align: justify;
+}
+.anchor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.anchor > h4 {
+  font-weight: normal;
+}
+.lab {
+  font-size: 12px;
+  text-align: right;
+  color: rgb(163, 161, 161);
+}
+.anchor {
+  color: rgb(45, 45, 45);
+  font-size: small;
+}
+a {
+  text-decoration: none;
+  font-weight: bolder;
+}
+.textfiled__lable {
+  color: rgb(201, 198, 198) !important;
+  font-size: small !important;
+}
+
+.textfield {
+  margin-bottom: auto;
+}
+p {
+  font-size:60%;
+  margin: 0%;
+}
+
+.fullname p {
+  margin-left: 1%;
+}
+.error {
+  display: flex;
+  justify-content: space-between;
+}
+.cntcode{
+  width:10%;
+  color: grey;
+}
+
