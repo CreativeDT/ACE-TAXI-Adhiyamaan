@@ -27,6 +27,7 @@ function FormSignUp({ submitForm }) {
     <Fragment>
       <div className="full-forms">
         <div className="formContainer-left">
+          <p className="headline">ACE Taxi</p>
           <img src={image} alt="iamge" className="img"></img>
         </div>
         <div className="formContainer-right">
@@ -173,7 +174,7 @@ function FormSignUp({ submitForm }) {
 
               <div className="anchor">
                 <h4>
-                  Already Having account? <a href="#">Login</a>
+                  Already Having account? <a href="/">Login</a>
                 </h4>
               </div>
             </div>
